@@ -1,0 +1,21 @@
+{
+    "name": "saul-lara/hexagonest",
+    "description": "A simple way to use php without framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SaulLara\\Hexagonest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saul Hdz",
+            "email": "hl.saul.01@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/dotenv": "^6.0"
+    }
+}
