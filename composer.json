@@ -17,6 +17,6 @@
     "minimum-stability": "stable",
     "require": {
         "symfony/dotenv": "^6.0",
-        "filp/whoops": "^2.14"
+        "spatie/ignition": "^1.4"
     }
 }
