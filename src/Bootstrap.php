@@ -13,5 +13,5 @@ $dotenv->load(__DIR__ . '/../.env');
  */
 Ignition::make()
     ->shouldDisplayException($_ENV['APP_ENV'] !== 'prod')
-    ->useDarkMode()
+    ->setTheme("dark")
     ->register();
