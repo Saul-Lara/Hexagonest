@@ -8,7 +8,7 @@ use SaulLara\Hexagonest\Domain\MissingDeviceUuidException;
 use SaulLara\Hexagonest\Domain\MissingLatException;
 use SaulLara\Hexagonest\Domain\MissingLonException;
 
-final class ReegisterLocationAction
+final class RegisterLocationAction
 {
     private LocationRepositoryInterface $locationRepository;
 

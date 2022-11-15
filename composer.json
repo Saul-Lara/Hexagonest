@@ -21,5 +21,8 @@
     "require-dev": {
         "spatie/ignition": "^1.4",
         "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "run-tests": "./vendor/bin/phpunit --bootstrap ./src/Tests/Bootstrap.php ./src/Tests"
     }
 }
