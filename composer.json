@@ -26,6 +26,7 @@
     "scripts": {
         "run-tests": "./vendor/bin/phpunit --bootstrap ./src/Tests/Bootstrap.php ./src/Tests",
         "phinx-create": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" create ",
-        "phinx-migrate": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" migrate "
+        "phinx-migrate": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" migrate ",
+        "phinx-rollback": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" rollback "
     }
 }
