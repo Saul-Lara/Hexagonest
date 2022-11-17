@@ -16,13 +16,17 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "symfony/dotenv": "^6.0"
+        "symfony/dotenv": "^6.0",
+        "robmorgan/phinx": "^0.13.1"
     },
     "require-dev": {
         "spatie/ignition": "^1.4",
         "phpunit/phpunit": "^9.5"
     },
     "scripts": {
-        "run-tests": "./vendor/bin/phpunit --bootstrap ./src/Tests/Bootstrap.php ./src/Tests"
+        "run-tests": "./vendor/bin/phpunit --bootstrap ./src/Tests/Bootstrap.php ./src/Tests",
+        "phinx-create": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" create ",
+        "phinx-migrate": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" migrate ",
+        "phinx-rollback": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" rollback "
     }
 }
