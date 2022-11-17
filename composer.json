@@ -24,6 +24,7 @@
         "phpunit/phpunit": "^9.5"
     },
     "scripts": {
-        "run-tests": "./vendor/bin/phpunit --bootstrap ./src/Tests/Bootstrap.php ./src/Tests"
+        "run-tests": "./vendor/bin/phpunit --bootstrap ./src/Tests/Bootstrap.php ./src/Tests",
+        "phinx-create": "./vendor/bin/phinx --configuration=\"./config/phinx.php\" create "
     }
 }
